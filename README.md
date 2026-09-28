@@ -3,38 +3,42 @@
 Código desenvolvido ao longo das aulas da disciplina TMS0058 (YDUQS/Estácio),
 Prof. Wender Firmino.
 
-## Esta branch: `parte4` (S6, 14/09)
+## Esta branch: `parte5` (S8, 28/09)
 
-Início do projeto de nota final: landing page de uma loja virtual fictícia
-(`projeto-ecommerce/`). Hoje só a estrutura:
+CSS responsivo (retomando o que ficou pendente de 21/09) + primeira
+interatividade em JavaScript no `projeto-ecommerce/`:
+
+- **Responsividade** — `viewport`, `box-sizing: border-box`, `.container`,
+  imagens fluidas e a grade de produtos com breakpoints em 600px/992px
+  (o "Plano B" da aula, caso o checkpoint mostre que a turma não praticou
+  em 21/09).
+- **Etapa 1** — mensagem de frete com `if`/`else` (`#aviso-frete`).
+- **Etapa 2** — menu que abre/fecha no celular com `classList.toggle` e
+  `addEventListener("click", ...)`.
+- **Etapa 3** — validação simples do formulário de contato com
+  `addEventListener("submit", ...)` e `evento.preventDefault()`.
 
 ```
 projeto-ecommerce/
-├── index.html          (esqueleto HTML5 com os 4 blocos vazios)
-├── css/
-│   └── style.css       (CSS externo, ainda com poucas regras)
-└── img/                (imagens dos produtos e do banner)
+├── index.html          (header+menu, banner, vitrine, form de contato, footer)
+├── css/style.css        (responsividade + CSS do menu)
+├── js/app.js             (frete, menu, validação do formulário)
+└── img/
 ```
 
-As quatro seções obrigatórias (`<header>`, banner, produtos, `<footer>`)
-estão como blocos vazios — o conteúdo e o visual entram nas próximas aulas.
+> **Nota de reconstrução:** este código foi reconstruído a partir do
+> material da aula (slides "Plano B", "Etapa 1/2/3"), pois o código escrito
+> em sala não foi arquivado neste workspace. Reflete o que os slides
+> ensinam a implementar — confira contra o que de fato foi feito em sala
+> antes de usar como gabarito.
 
-> **Nota de reconstrução:** este esqueleto foi reconstruído a partir do
-> material da aula (slides), pois o código escrito em sala por cada aluno
-> não foi arquivado neste workspace. Reflete exatamente a estrutura
-> ensinada (slide "O esqueleto do index.html").
+Ponto de partida desta aula: `parte4` (S6, 14/09) — a S7 (21/09) não gerou
+código novo (ver README da `parte4`).
 
-Ponto de partida desta aula: `parte3` (S4, 31/08) — este é um projeto novo,
-não uma evolução do formulário do hotel.
-
-## Sobre a aula seguinte (S7, 21/09)
-
-Não há `parte5`: a aula de 21/09 cobriu só a teoria de responsividade e
-Mobile First (viewport, layout fluido, media queries, imagens flexíveis,
-Flexbox/Grid) nos 50 minutos iniciais — a segunda metade foi liberada para
-o Simulado 1, e o laboratório prático (aplicar isso no `projeto-ecommerce`)
-não chegou a ser executado em sala. Quando esse laboratório for de fato
-implementado, a parte correspondente será criada.
+A partir de hoje começa a valer a **Atividade A1** (landing page
+responsiva, 2,0 pts, entrega 19/10): cabeçalho com menu, vitrine com pelo
+menos 6 produtos, formulário de contato, HTML semântico, CSS externo e
+Mobile First — JavaScript no menu é opcional para a atividade.
 
 ## Navegação entre as partes
 
