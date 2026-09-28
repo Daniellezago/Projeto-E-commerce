@@ -3,14 +3,13 @@
 Código desenvolvido ao longo das aulas da disciplina TMS0058 (YDUQS/Estácio),
 Prof. Wender Firmino.
 
-## Esta branch: `parte2` (S3, 24/08)
+## Esta branch: `parte3` (S4, 31/08)
 
-Formulário de reserva de um hotel fictício: tags de formulário
-(`<form>`, `<fieldset>`, `<legend>`, `<label>`, `<input>` de vários tipos,
-`<select>`, `<textarea>`) e validação nativa do HTML5 (`required`,
-`type="email"`, `type="number"` etc.).
+O mesmo formulário do hotel, agora com CSS externo (`style.css`) aplicado:
+seletor de elemento (tag), seletor de classe e seletor de id, cada um
+comentado no próprio arquivo `style.css` explicando o que faz.
 
-Ponto de partida desta aula: `master` (S2, 17/08).
+Ponto de partida desta aula: `parte2` (S3, 24/08).
 
 ## Navegação entre as partes
 

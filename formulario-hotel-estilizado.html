@@ -2,11 +2,14 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Reserva - Hotel Exemplo</title>
+        <title>Reserva - Hotel Exemplo (estilizado)</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Reserva de hospedagem</h1>
-        <p>Preencha o formulário abaixo para solicitar sua reserva.</p>
+		<h1 style="color: green">Reserva de hospedagem com CSS INLINE</h1>
+		<h1> Reserva de hospedagem:</h
+        <p>Mesmo formulário da Aula 3 — agora com CSS aplicado (seletor de elemento, de classe e de id).</p>
 
         <form action="/reservas" method="post">
 
@@ -28,8 +31,6 @@
                 <input type="email" id="email" name="email" required>
             </fieldset>
 
-            <br>
-
             <fieldset>
                 <legend>Dados da reserva</legend>
 
@@ -50,8 +51,6 @@
                 </select>
             </fieldset>
 
-            <br>
-
             <fieldset>
                 <legend>Resumo e observações</legend>
 
@@ -69,10 +68,8 @@
                 <label for="newsletter">Quero receber promoções por e-mail</label>
             </fieldset>
 
-            <br>
-
-            <button type="submit">Confirmar reserva</button>
-            <button type="reset">Limpar formulário</button>
+            <button type="submit" class="botao-principal" style="background-color:lightyellow;">Confirmar reserva</button>
+            <button type="reset" class="botao-secundario">Limpar formulário</button>
 
         </form>
     </body>
