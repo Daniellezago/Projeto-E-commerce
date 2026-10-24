@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Loja</title>
+    <title>Glow & Rose Cosméticos</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,40 +16,84 @@
     </header>
 
     <section class="banner">
-        <h2>Minha Loja</h2>
+        <h2>Glow & Rose Cosméticos</h2>
+        <!-- ID adicionado para o JS encontrar -->
         <p id="aviso-frete"></p>
     </section>
 
     <section id="vitrine" class="container">
         <div class="produtos">
             <div class="cartao">
-                <img src="img/produto-1.jpg" alt="Produto 1">
-                <p>Produto 1</p>
+                <img src="img/produto-1.jpg" alt="Loção Facial de Colágeno III">
+                <p>Loção Facial de Colágeno III</p>
                 <p>R$ 99,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>
             </div>
             <div class="cartao">
-                <img src="img/produto-2.jpg" alt="Produto 2">
-                <p>Produto 2</p>
-                <p>R$ 129,90</p>
+                <img src="img/produto-2.jpg" alt="Revitalift - Loreal">
+                <p>Revitalift - Loreal</p>
+                <p>R$ 149,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>
             </div>
             <div class="cartao">
-                <img src="img/produto-3.jpg" alt="Produto 3">
-                <p>Produto 3</p>
-                <p>R$ 79,90</p>
+                <img src="img/produto-3.jpg" alt="Creme Corporal - Bio Femme">
+                <p>Creme Corporal - Bio Femme</p>
+                <p>R$ 59,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>
+            </div>
+            <div class="cartao">
+                <img src="img/produto-4.jpg" alt="Máscara de Cílios - Belle Angel">
+                <p>Máscara de Cílios - Belle Angel</p>
+                <p>R$ 85,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>
+            </div>
+            <div class="cartao">
+                <img src="img/produto-5.jpg" alt="Miss Dior Edp - 100 ml">
+                <p>Miss Dior Edp - 100 ml</p>
+                <p>R$ 990,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>
+            </div>
+            <div class="cartao">
+                <img src="img/produto-6.jpg" alt="YSL Libre Edp - 90 ml">
+                <p>YSL Libre Edp - 90 ml</p>
+                <p>R$ 1199,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>    
+            </div>
+            <div class="cartao">
+                <img src="img/produto-7.jpg" alt="Creme Hidratante - Bioderma">
+                <p>Creme Hidratante - Bioderma</p>
+                <p>R$ 1199,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>    
+            </div>
+            <div class="cartao">
+                <img src="img/produto-8.jpg" alt="Batom Vermelho Matte">
+                <p>Batom Vermelho Matte</p>
+                <p>R$ 1199,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>    
+            </div>
+            <div class="cartao">
+                <img src="img/produto-9.jpg" alt="Batom Vermelho - Ysl">
+                <p>Batom Vermelho - Ysl</p>
+                <p>R$ 350,90</p>
+                <button class="btn-detalhes">Ver Detalhes</button>    
             </div>
         </div>
     </section>
 
     <section id="contato" class="container">
+        <h2>Fale Conosco</h2>
         <form id="contato-form">
-            <input id="email" type="text" placeholder="Seu e-mail">
+            <input id="nome" type="text" placeholder="Seu nome" required>
+            <input id="email" type="text" placeholder="Seu e-mail" required>
+            <input id="telefone" type="tel" placeholder="Seu telefone" required>
+            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
             <button type="submit">Enviar</button>
             <p id="erro"></p>
         </form>
     </section>
 
     <footer>
-        <p>contato@minhaloja.com</p>
+        <p>contato@glowandrosecosmeticos.com</p>
     </footer>
 
     <script src="js/app.js" defer></script>

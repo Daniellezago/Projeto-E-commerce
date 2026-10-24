@@ -1,3 +1,11 @@
+Projeto E-commerce - Parte I: Landing Page Responsiva
+Aluna: Danielle Zago
+Professor: Wender Firmino
+Descrição: Landing page responsiva para loja virtual desenvolvida com HTML5 semântico, CSS First e JavaScript Básico. 
+
+-------------------------------------------------------
+
+
 # Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
 
 Código desenvolvido ao longo das aulas da disciplina TMS0058 (YDUQS/Estácio),
